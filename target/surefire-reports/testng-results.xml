@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-19T06:57:53Z" name="Surefire suite" finished-at="2023-05-19T06:57:53Z" duration-ms="29">
+    <groups>
+    </groups>
+    <test started-at="2023-05-19T06:57:53Z" name="Surefire test" finished-at="2023-05-19T06:57:53Z" duration-ms="29">
+      <class name="qaAcademy.Maven_Project.RESTAPITest">
+        <test-method signature="deleteTwitter()[pri:0, instance:qaAcademy.Maven_Project.RESTAPITest@b2c9a9c]" started-at="2023-05-19T06:57:53Z" name="deleteTwitter" finished-at="2023-05-19T06:57:53Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+      </class> <!-- qaAcademy.Maven_Project.RESTAPITest -->
+      <class name="qaAcademy.Maven_Project.AppiumTest">
+        <test-method signature="IOSApps()[pri:0, instance:qaAcademy.Maven_Project.AppiumTest@2362f559]" started-at="2023-05-19T06:57:53Z" name="IOSApps" finished-at="2023-05-19T06:57:53Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSApps -->
+        <test-method signature="NativeAppAndroid()[pri:0, instance:qaAcademy.Maven_Project.AppiumTest@2362f559]" started-at="2023-05-19T06:57:53Z" name="NativeAppAndroid" finished-at="2023-05-19T06:57:53Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NativeAppAndroid -->
+      </class> <!-- qaAcademy.Maven_Project.AppiumTest -->
+      <class name="qaAcademy.Maven_Project.SeleniumTest">
+        <test-method signature="BrowserAutomation()[pri:0, instance:qaAcademy.Maven_Project.SeleniumTest@4c178a76]" started-at="2023-05-19T06:57:53Z" name="BrowserAutomation" finished-at="2023-05-19T06:57:53Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAutomation -->
+        <test-method signature="Elements()[pri:0, instance:qaAcademy.Maven_Project.SeleniumTest@4c178a76]" started-at="2023-05-19T06:57:53Z" name="Elements" finished-at="2023-05-19T06:57:53Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Elements -->
+      </class> <!-- qaAcademy.Maven_Project.SeleniumTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
