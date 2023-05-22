@@ -1,4 +1,4 @@
-# Maven - Build Management tool
+# Maven - Project/Build Management tool
 
 ### Importance of Maven
 1. Central repository to get dependencies
@@ -7,7 +7,7 @@
 4. Plugins for test framework execution
 
 ### Maven Install
-1. Download the https://maven.apache.org/download.cgi
+1. Download the Binary zip archive from https://maven.apache.org/download.cgi
 2. Edit the system environment variables
 3. Create a new System variables; Variable name: MAVEN_HOME and Variable value: maven folder path in the local drive
 4. Click on the Path of System variable and edit and create a new Environment variable copying the maven binary folder path in the local drive
@@ -24,3 +24,9 @@ By default, these files are generated in ${basedir}/target/surefire-reports/TEST
 3. Maven TestNG: TestNG is a testing framework inspired from JUnit and NUnit but introducing some new functionalities that make it more powerful and easier to use. It supports test configured by annotations, data-driven testing, parametric tests, etc.
 
 4. Maven REST Assured: Java DSL for easy testing of REST services
+
+## Maven Run
+1. Open the command prompt in the maven project directory
+2. Type [mvn clean] and hit ENTER.
+3. Type [mvn compile] and hit ENTER.
+4. Type [mvn test] and hit ENTER.
